@@ -1,0 +1,30 @@
+* {
+    transition: 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: flex;
+    height: 40rem;
+    margin: auto;
+}
+
+.bulbContainer {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .bulbContainer{
+        margin-top: 2rem;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    img{
+        width: 22rem;
+        height: auto;
+    }
+  }
